@@ -1,0 +1,117 @@
+body {
+  background-color: #181717;
+}
+/*
+nav
+*/
+ul {
+  list-style-type: none;
+  margin-top: 17px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+
+}
+
+
+ul li a {
+  display: inline-block;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li:hover {
+  background-color: #111111;
+  border-radius: 30px;
+  padding: 0;
+}
+
+img {
+  margin-left: 18px;
+  width: 30px;
+  height: 30px;
+}
+
+/*
+primeira section
+*/
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  100px 20px;
+  gap: 20px;
+  border-bottom: 1px solid #333;
+}
+
+.texto-coluna {
+  flex: 1;
+  text-align: center;
+  
+}
+
+.imagem-coluna {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.foto-perfil {
+  width: 275px;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid #333
+}
+
+.links .git {
+  text-decoration: none;
+  border: 1px solid #333;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.links a {
+  margin-top: 10px;
+  text-decoration: none;
+}
+.links {
+  max-width: auto;
+  align-items: center;
+  padding: 45px;
+
+}
+
+#nome-dev  {
+  display: block;
+  max-width: 250px;
+  word-wrap: break-word;
+  line-height: 1.2;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}
+#bio-dev {
+  color: white;
+  width: auto;
+}
+
+/*
+section habilidades
+*/
+.container-habilidades {
+  display: flex;
+  justify-content: space-around;
+}
