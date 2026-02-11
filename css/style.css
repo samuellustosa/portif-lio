@@ -75,24 +75,30 @@ primeira section
   border: 3px solid #333
 }
 
-.links .git {
-  text-decoration: none;
-  border: 1px solid #333;
-  border-radius: 50px;
+.links {
+  max-width: auto;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  align-items: center;
+
+}
+
+.links .git {
+  text-decoration: none;
+  border: 3px solid #61125c;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 15px;
+  width: 100px;
 }
 .links a {
   margin-top: 10px;
   text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
 }
-.links {
-  max-width: auto;
-  align-items: center;
-  padding: 45px;
 
-}
 
 #nome-dev  {
   display: block;
@@ -107,6 +113,7 @@ primeira section
   color: white;
   width: auto;
 }
+
 
 /*
 section habilidades
