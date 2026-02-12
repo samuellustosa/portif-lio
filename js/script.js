@@ -6,12 +6,15 @@ const usuario = {
 };
 
 
+
 const elementoNome = document.getElementById('nome-dev');
+const partesDonome = usuario.nome.split(" ");
+
 const elementoBio = document.getElementById('bio-dev');
 const divHabilidades = document.getElementById('habilidades');
 
 
-elementoNome.innerText = usuario.nome;
+elementoNome.innerText = `${partesDonome[0]} ${partesDonome[1]}`;
 elementoBio.innerText = usuario.bio;
 
 usuario.tecnologias.forEach(tech => {
