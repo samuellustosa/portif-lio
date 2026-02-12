@@ -43,8 +43,9 @@ li:hover {
 
 img {
   margin-left: 18px;
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
 }
 
 
@@ -59,7 +60,7 @@ primeira section
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:  100px 20px;
+  padding:  150px 20px;
   gap: 20px;
   border-bottom: 1px solid #011030;
 }
@@ -67,8 +68,7 @@ primeira section
 
 .texto-coluna {
   flex: 1;
-  text-align: center;
-  
+
 }
 
 .imagem-coluna {
@@ -97,6 +97,7 @@ primeira section
 
 .links .git {
   text-decoration: none;
+  text-align: center;
   border: 5px solid #011030;
   box-shadow: 0 0 10px rgba(1, 16, 48, 1);
   border-radius: 50px;
@@ -138,6 +139,8 @@ primeira section
   color: white;
   width: auto;
   text-align: left;
+  font-size: 25px;
+  color: #7e7a7a;
 }
 
 
@@ -148,10 +151,9 @@ section xp
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  padding: 120px 40px;
+  padding: 200px;
   max-width: 1000px;
   margin: 0 auto;
-  height: 300px;
 }
 
 .card {
@@ -177,6 +179,7 @@ section xp
   flex: 1;
   text-align: center;
   padding-top: 25px;
+  font-size: 22px;
 }
 
 .coluna-interna span {
@@ -185,6 +188,18 @@ section xp
     color: #053db6; 
      
 }
+.img-cards img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.p-card {
+  margin: auto;
+  max-width: 200px;
+  font-size: 14px;
+}
+
 
 /*
 3 section
@@ -193,26 +208,26 @@ section xp
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 100px;
   padding:  100px 20px;
   padding-bottom: 150px;
-  border-bottom: 1px solid #011030;
-  border-top: 1px solid #011030;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  
 }
 
 
-#nome-info {
-  text-align: left;
-  color: white;
-}
  #bio-info {
   color: rgb(168, 159, 159);
   text-align: left;
+  max-width: 600px
  }
 
  .imagem-info {
-  margin-right: 60px;
   display: flex;
   justify-content: center;
+  
 }
 
 .foto-info {
@@ -223,3 +238,4 @@ section xp
   border: 3px solid #011030;
   box-shadow: 0 0 50px 1px rgba(1, 16, 48, 1);
 }
+
